@@ -99,7 +99,7 @@
 </header>
 
 <div id="bar">
-  <button class="light" onclick="home()">Нұсқалар</button>
+  <button class="light" onclick="goHome()">Нұсқалар</button>
   <button onclick="check()">Нәтижені көру</button>
 </div>
 
@@ -931,7 +931,7 @@ function check(){
   res.scrollIntoView({behavior:"smooth"});
 }
 
-function home(){
+function goHome(){
   document.getElementById("home").style.display = "block";
   document.getElementById("test").innerHTML = "";
   document.getElementById("res").style.display = "none";
